@@ -1,1 +1,12 @@
-{"name": "project-name","version": "1.0.0","description": "A short description of your project","main": "index.js","scripts": {"test": "echo 'Error: no test specified' && exit 1"},"repository": {"type": "git","url": "git+https://github.com/nareshsawlani5417-debug/rsi2.git"},"keywords": [],"author": "Your Name","license": "ISC"}
+{
+  "name": "rsi-proxy",
+  "version": "1.0.0",
+  "description": "Yahoo Finance CORS proxy for RSI analyzer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
